@@ -5,9 +5,10 @@ function findMinAndRemove(array){
     if(number < min){
       min = number;
       minIndex = index;
-      array.splice(minIndex, 1)
+     // array.splice(minIndex, 1)
     }
   })
+  array.splice(minIndex, 1)
   return min
 }
 
